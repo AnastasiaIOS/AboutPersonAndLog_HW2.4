@@ -17,6 +17,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-
+   
+    @IBAction func showAlertAboutUsername(_ sender: Any) {
+        
+        let alert = UIAlertController(title: "Ooops!", message: "User name = FUN", preferredStyle: UIAlertController.Style)
+    }
+    }
+    
+        
+    
 }
 

@@ -56,6 +56,11 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="149.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Forgot User Name?"/>
+                                                <connections>
+                                                    <action selector="showAlertAboutUsername" destination="BYZ-38-t0r" eventType="touchUpInside" id="g9p-iM-F6t"/>
+                                                    <action selector="showAlertAboutUsername:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4R-cp-HCn"/>
+                                                    <action selector="showAlertUsername" destination="BYZ-38-t0r" eventType="touchUpInside" id="abp-Wc-7n7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScN-gQ-QNH">
                                                 <rect key="frame" x="184.5" y="0.0" width="149.5" height="31"/>
