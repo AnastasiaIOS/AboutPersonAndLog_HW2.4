@@ -10,7 +10,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LogInOut_HW2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -23,7 +22,6 @@
                                         <rect key="frame" x="0.0" y="0.0" width="306" height="34"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="34" id="Yys-ar-bZd"/>
-                                            <constraint firstAttribute="width" constant="306" id="d7I-hf-gs3"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -37,6 +35,9 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" id="vPH-Cs-mZ1"/>
+                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="68" translatesAutoresizingMaskIntoConstraints="NO" id="bcd-Sg-QNP">
                                 <rect key="frame" x="40" y="306" width="334" height="143"/>
@@ -81,7 +82,12 @@
                             <constraint firstItem="bcd-Sg-QNP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="yTn-2a-zPO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTF" destination="vMG-s3-ypT" id="EDm-mn-7Lh"/>
+                        <outlet property="userNameTF" destination="bgz-nJ-GLL" id="uwR-cM-JVh"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="17.39130434782609" y="79.017857142857139"/>
         </scene>
