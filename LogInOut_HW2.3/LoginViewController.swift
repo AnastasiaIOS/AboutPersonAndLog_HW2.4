@@ -18,13 +18,13 @@ class ViewController: UIViewController {
     }
 
    
-    @IBAction func showAlertAboutUsername(_ sender: Any) {
-        
-        let alert = UIAlertController(title: "Ooops!", message: "User name = FUN", preferredStyle: UIAlertController.Style)
+    @IBAction func showAlertAboutUsername(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Attention!", message: "Username = USER", preferredStyle: .alert)
     }
+    
     }
     
         
     
-}
+
 
