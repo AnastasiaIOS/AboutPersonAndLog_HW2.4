@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         guard let welcomeVC = segue.destination is WelcomeViewController else { return }
-        welcomeVC.labelForWelcome.text = userNameTF.text
+        welcomeVC.labelWelcome.text = userNameTF.text
     }
 
    
