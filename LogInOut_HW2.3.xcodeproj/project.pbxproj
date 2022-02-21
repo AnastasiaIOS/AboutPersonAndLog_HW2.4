@@ -13,7 +13,7 @@
 		5D02059127C26BC000A896FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D02058F27C26BC000A896FF /* Main.storyboard */; };
 		5D02059327C26BC100A896FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D02059227C26BC100A896FF /* Assets.xcassets */; };
 		5D02059627C26BC100A896FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D02059427C26BC100A896FF /* LaunchScreen.storyboard */; };
-		5D02059E27C43E2B00A896FF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02059D27C43E2B00A896FF /* WelcomeViewController.swift */; };
+		5D0205A027C43F6F00A896FF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02059F27C43F6F00A896FF /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		5D02059227C26BC100A896FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D02059527C26BC100A896FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D02059727C26BC100A896FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D02059D27C43E2B00A896FF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5D02059F27C43F6F00A896FF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +58,12 @@
 		5D02058827C26BC000A896FF /* LogInOut_HW2.3 */ = {
 			isa = PBXGroup;
 			children = (
+				5D02059F27C43F6F00A896FF /* WelcomeViewController.swift */,
 				5D02058927C26BC000A896FF /* AppDelegate.swift */,
 				5D02058B27C26BC000A896FF /* SceneDelegate.swift */,
 				5D02058D27C26BC000A896FF /* LoginViewController.swift */,
 				5D02058F27C26BC000A896FF /* Main.storyboard */,
 				5D02059227C26BC100A896FF /* Assets.xcassets */,
-				5D02059D27C43E2B00A896FF /* WelcomeViewController.swift */,
 				5D02059427C26BC100A896FF /* LaunchScreen.storyboard */,
 				5D02059727C26BC100A896FF /* Info.plist */,
 			);
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D02058E27C26BC000A896FF /* LoginViewController.swift in Sources */,
-				5D02059E27C43E2B00A896FF /* WelcomeViewController.swift in Sources */,
+				5D0205A027C43F6F00A896FF /* WelcomeViewController.swift in Sources */,
 				5D02058A27C26BC000A896FF /* AppDelegate.swift in Sources */,
 				5D02058C27C26BC000A896FF /* SceneDelegate.swift in Sources */,
 			);

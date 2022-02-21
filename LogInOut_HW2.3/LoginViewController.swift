@@ -12,13 +12,21 @@ class ViewController: UIViewController {
     @IBOutlet var userNameTF: UITextField!
     @IBOutlet var passwordTF: UITextField!
     
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard let welcomeVC = segue.destination is WelcomeViewController else { return }
+        welcomeVC.labelForWelcome.text = userNameTF.text
+    }
 
    
     @IBAction func loginButton() {
+        
     }
     
     @IBAction func showAlertAboutUsername() {
@@ -31,6 +39,8 @@ class ViewController: UIViewController {
         
         let alertPass = UIAlertController(title: "Attention!", message: "Password = 12345", preferredStyle: .alert)
     }
+    
+    
     
     }
     

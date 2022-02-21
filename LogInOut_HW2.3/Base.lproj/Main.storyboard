@@ -102,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="17.39130434782609" y="79.017857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="SgX-qb-9t7">
             <objects>
-                <viewController id="C2r-K2-ZJe" sceneMemberID="viewController">
+                <viewController id="C2r-K2-ZJe" customClass="WelcomeViewController" customModule="LogInOut_HW2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cc7-GG-GhG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,6 +126,9 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="cancelButtonPressed" destination="C2r-K2-ZJe" eventType="touchUpInside" id="zdu-Ch-eaD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="z9X-qb-Vc7"/>
@@ -140,6 +143,9 @@
                             <constraint firstItem="qsC-oS-BDr" firstAttribute="top" secondItem="z9X-qb-Vc7" secondAttribute="top" constant="121" id="nEh-p3-zoS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelForWelcome" destination="qsC-oS-BDr" id="9iF-tt-9FF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJ1-hf-n75" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
