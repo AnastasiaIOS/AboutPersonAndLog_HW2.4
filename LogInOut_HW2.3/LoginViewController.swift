@@ -18,8 +18,18 @@ class ViewController: UIViewController {
     }
 
    
-    @IBAction func showAlertAboutUsername(_ sender: UIButton) {
-        let alert = UIAlertController(title: "Attention!", message: "Username = USER", preferredStyle: .alert)
+    @IBAction func loginButton() {
+    }
+    
+    @IBAction func showAlertAboutUsername() {
+        
+        let alertUser = UIAlertController(title: "Attention!", message: "Username = USER", preferredStyle: .alert)
+    }
+    
+    
+    @IBAction func showAlertAboutPassword() {
+        
+        let alertPass = UIAlertController(title: "Attention!", message: "Password = 12345", preferredStyle: .alert)
     }
     
     }
