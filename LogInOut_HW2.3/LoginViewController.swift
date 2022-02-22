@@ -35,7 +35,7 @@ class ViewController: UIViewController {
             alert.addAction(UIAlertAction(title: "OK", style: .default) { action in
                 // обработка нажатия кнопки
             })
-            self.present(alert, animated: true, completion: nil)
+            self.present(alert, animated: true)
             
             if passwordTF.text != password {
                 passwordTF.text = ""
@@ -48,17 +48,37 @@ class ViewController: UIViewController {
     // Инф сообщение о логине
     @IBAction func showAlertAboutUsername() {
         
-        _ = UIAlertController(title: "Attention!", message: "Username = user", preferredStyle: .alert)
+        let alertUN = UIAlertController(title: "Oooops!",
+                                        message: "Username = user",
+                                        preferredStyle: .alert)
+        alertUN.addAction(UIAlertAction(title: "OK", style: .default) { action in
+            // обработка нажатия кнопки
+        })
+        self.present(alertUN, animated: true)
     }
     
     //Инф сообщение о пароле
     @IBAction func showAlertAboutPassword() {
         
-        _ = UIAlertController(title: "Attention!", message: "Password = 12345", preferredStyle: .alert)
+        let alertPassword = UIAlertController(title: "Yhoho!",
+                                              message: "Password = 12345",
+                                              preferredStyle: .alert)
+        alertPassword.addAction(UIAlertAction(title: "OK", style: .default) { action in
+            // обработка нажатия кнопки
+        })
+        self.present(alertPassword, animated: true)
     }
     
+    @IBAction func unwind(for segue: UIStoryboardSegue) {
+        
+        passwordTF.text = ""
+        userNameTF.text = ""
+    }
     
-    
+    // Метод для скрытия клавиатуры тапом по экрану
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super .touchesBegan(touches, with: event)
+    }
 }
 
 

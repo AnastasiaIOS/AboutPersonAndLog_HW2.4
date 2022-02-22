@@ -128,6 +128,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="cancelButtonPressed" destination="C2r-K2-ZJe" eventType="touchUpInside" id="zdu-Ch-eaD"/>
+                                    <segue destination="ksQ-JA-PAo" kind="unwind" unwindAction="unwindFor:" id="UqO-8Z-bLg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -148,6 +149,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJ1-hf-n75" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ksQ-JA-PAo" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="786.95652173913049" y="77.678571428571431"/>
         </scene>
