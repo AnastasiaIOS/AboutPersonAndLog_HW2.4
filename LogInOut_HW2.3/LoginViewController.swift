@@ -12,7 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet var userNameTF: UITextField!
     @IBOutlet var passwordTF: UITextField!
     
-   
+    private let user = "user"
+    private let password = "12345"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +22,8 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        guard let welcomeVC = segue.destination is WelcomeViewController else { return }
-        welcomeVC.labelWelcome.text = userNameTF.text
+        guard let welcomeVC = segue.destination as? WelcomeViewController else { return }
+        welcomeVC.user = user
     }
 
    
@@ -29,12 +31,13 @@ class ViewController: UIViewController {
         
     }
     
+    // Инф сообщение о логине
     @IBAction func showAlertAboutUsername() {
         
-        let alertUser = UIAlertController(title: "Attention!", message: "Username = USER", preferredStyle: .alert)
+        let alertUser = UIAlertController(title: "Attention!", message: "Username = user", preferredStyle: .alert)
     }
     
-    
+    //Инф сообщение о пароле
     @IBAction func showAlertAboutPassword() {
         
         let alertPass = UIAlertController(title: "Attention!", message: "Password = 12345", preferredStyle: .alert)

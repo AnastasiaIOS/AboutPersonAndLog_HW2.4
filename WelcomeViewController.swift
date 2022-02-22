@@ -10,18 +10,15 @@ import UIKit
 class WelcomeViewController: UIViewController {
 
     @IBOutlet var labelForWelcome: UILabel!
-    
-    var labelWelcome = String!
+    var user = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        labelForWelcome.text = labelWelcome.
-
     }
     
     
- 
+ // Кнопка LOGOUT
     @IBAction func cancelButtonPressed() {
         dismiss(animated: true)
         
