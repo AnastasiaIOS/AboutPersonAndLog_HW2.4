@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D02058627C26BC000A896FF /* LogInOut_HW2.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInOut_HW2.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D02058627C26BC000A896FF /* AboutPersonAndLog_HW2.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutPersonAndLog_HW2.4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D02058927C26BC000A896FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D02058B27C26BC000A896FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5D02058D27C26BC000A896FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		5D02057D27C26BC000A896FF = {
 			isa = PBXGroup;
 			children = (
-				5D02058827C26BC000A896FF /* LogInOut_HW2.3 */,
+				5D02058827C26BC000A896FF /* AboutPersonAndLog_HW2.4 */,
 				5D02058727C26BC000A896FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		5D02058727C26BC000A896FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D02058627C26BC000A896FF /* LogInOut_HW2.3.app */,
+				5D02058627C26BC000A896FF /* AboutPersonAndLog_HW2.4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D02058827C26BC000A896FF /* LogInOut_HW2.3 */ = {
+		5D02058827C26BC000A896FF /* AboutPersonAndLog_HW2.4 */ = {
 			isa = PBXGroup;
 			children = (
 				5D02059F27C43F6F00A896FF /* WelcomeViewController.swift */,
@@ -67,15 +67,15 @@
 				5D02059427C26BC100A896FF /* LaunchScreen.storyboard */,
 				5D02059727C26BC100A896FF /* Info.plist */,
 			);
-			path = LogInOut_HW2.3;
+			path = AboutPersonAndLog_HW2.4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D02058527C26BC000A896FF /* LogInOut_HW2.3 */ = {
+		5D02058527C26BC000A896FF /* AboutPersonAndLog_HW2.4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D02059A27C26BC100A896FF /* Build configuration list for PBXNativeTarget "LogInOut_HW2.3" */;
+			buildConfigurationList = 5D02059A27C26BC100A896FF /* Build configuration list for PBXNativeTarget "AboutPersonAndLog_HW2.4" */;
 			buildPhases = (
 				5D02058227C26BC000A896FF /* Sources */,
 				5D02058327C26BC000A896FF /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = LogInOut_HW2.3;
+			name = AboutPersonAndLog_HW2.4;
 			productName = LogInOut_HW2.3;
-			productReference = 5D02058627C26BC000A896FF /* LogInOut_HW2.3.app */;
+			productReference = 5D02058627C26BC000A896FF /* AboutPersonAndLog_HW2.4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D02058127C26BC000A896FF /* Build configuration list for PBXProject "LogInOut_HW2.3" */;
+			buildConfigurationList = 5D02058127C26BC000A896FF /* Build configuration list for PBXProject "AboutPersonAndLog_HW2.4" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D02058527C26BC000A896FF /* LogInOut_HW2.3 */,
+				5D02058527C26BC000A896FF /* AboutPersonAndLog_HW2.4 */,
 			);
 		};
 /* End PBXProject section */
@@ -295,10 +295,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LogInOut_HW2.3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AboutPersonAndLog_HW2.4;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.LogInOut-HW2.3.LogInOut-HW2-3";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.AboutPersonAndLog-HW2.4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,10 +324,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LogInOut_HW2.3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AboutPersonAndLog_HW2.4;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.LogInOut-HW2.3.LogInOut-HW2-3";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.AboutPersonAndLog-HW2.4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D02058127C26BC000A896FF /* Build configuration list for PBXProject "LogInOut_HW2.3" */ = {
+		5D02058127C26BC000A896FF /* Build configuration list for PBXProject "AboutPersonAndLog_HW2.4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D02059827C26BC100A896FF /* Debug */,
@@ -354,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D02059A27C26BC100A896FF /* Build configuration list for PBXNativeTarget "LogInOut_HW2.3" */ = {
+		5D02059A27C26BC100A896FF /* Build configuration list for PBXNativeTarget "AboutPersonAndLog_HW2.4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D02059B27C26BC100A896FF /* Debug */,
